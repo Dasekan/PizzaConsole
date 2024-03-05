@@ -1,10 +1,14 @@
 ﻿namespace PizzaConsole
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Starting PizzaStore app");
+            Store store = new Store();
+            store.Start();
+
         }
+
     }
 }
